@@ -1,10 +1,43 @@
 .google-logo {
-    display:flex;
-    justify-content: center;
-    align-items: center;
+    display:block;
+    block-size: 100px;
     border: 1px solid red;
-    ;
+    text-align: center;
+    
 }
-.top-grid {
- 
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+.a {
+    display:block;
+    width:100%;
+    top: 16px;
+    height: 100px;
+    padding: 10px;
+    color:#222;
+    font-family:arial, sans-serif;
+    font-size:13px;
+    position:relative;
+    top: 0;
+}
+
+
+.box1 {
+    text-align: left;
+    float: left;
+    padding: 10px;
+}
+
+.box2 {
+    text-align: right;
+    float: right;
+    padding: 10px;
 }
