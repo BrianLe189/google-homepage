@@ -1,3 +1,13 @@
+body {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin:0px;
+    padding:0px;
+
+}
+
+
 .google-logo {
     display:block;
     block-size: 100px;
@@ -6,7 +16,7 @@
     border: 1px solid red;
     text-align: center;
     position:fixed;
-    top: 10em;
+    top: 12em;
 }
 
 .center {
@@ -24,13 +34,13 @@ form {
     display:block;
     block-size:35px;
     box-sizing: border-box;
+    border-radius: 20px;
+    height: 40px;
     border: 1px solid red;
     position: relative;
     width:500px;
-    top: 18em;    
+    top: 16em;    
 }
-
-
 
 
 .btn {
@@ -39,9 +49,9 @@ form {
     cursor:pointer;
     border: 1px solid red;
     position:relative;
-    top: 17em;
-    block-size: 30px;
-    width: 16vw;
+    top: 16em;
+    block-size: 35px;
+    width: 14vw;
     border-radius: 5px;
     white-space: nowrap;
     text-overflow: clip;
@@ -50,14 +60,12 @@ form {
 
 .nav {
     width:100%;
-    top: 16px;
-    height: 80px;
-    margin: 0;
+    height: 60px;
     color:#222;
     font-family:arial, sans-serif;
     font-size:13px;
-    position:fixed;
-    top: 0;
+    position:relative;
+    top: 0px;
     border: 1px solid red;
 }
 
@@ -65,7 +73,6 @@ footer {
     width:100%;
     bottom:0px;
     height: 60px;
-    margin: 0;
     color:#222;
     font-family:arial, sans-serif;
     font-size:13px;
@@ -79,20 +86,28 @@ footer {
     display:inline-block; 
     padding: 10px;
     position:relative;
-    top: 10px;
     border: 1px solid red;
     
 }
 
 .box2 {
-    display:block;
+    display:inline-block;
     float:right;
+    vertical-align:middle;
     padding: 10px;
     position: relative;
-    top: 10px;
-    right:10px;
     border: 1px solid red;
 
+}
+
+.logo{
+    display:block;
+    float:inline-end;
+    padding: 10px 0;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    border: 1px solid red;
 }
 
 .box3{
@@ -110,5 +125,5 @@ footer {
     position:relative;
     border: 1px solid red;
     top:25px;
-    right:10px;
+    
 }
