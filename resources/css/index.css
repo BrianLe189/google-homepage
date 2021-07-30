@@ -7,8 +7,6 @@
     text-align: center;
     position:fixed;
     top: 10em;
-    
-    
 }
 
 .center {
@@ -24,7 +22,7 @@ form {
 }
 .searchbar[type=text]{
     display:block;
-    block-size:60px;
+    block-size:35px;
     box-sizing: border-box;
     border: 1px solid red;
     position: relative;
@@ -32,29 +30,23 @@ form {
     top: 18em;    
 }
 
-.googlebutton {
+
+
+
+.btn {
+    display:inline-block;
+    font-size: 16px;
+    cursor:pointer;
     border: 1px solid red;
     position:relative;
-    top: 20em;
+    top: 17em;
+    block-size: 30px;
+    width: 16vw;
+    border-radius: 5px;
+    white-space: nowrap;
+    text-overflow: clip;
 }
 
-.luckybutton{
-    border: 1px solid red;
-    position:relative;
-    top: 20em;
-}
-
-
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-li {
-    float: left;
-}
 
 .nav {
     width:100%;
@@ -71,31 +63,18 @@ li {
 
 footer {
     width:100%;
-    bottom: 10px;
+    bottom:0px;
     height: 60px;
     margin: 0;
     color:#222;
     font-family:arial, sans-serif;
     font-size:13px;
     position:fixed;
-    bottom: 0;
     border: 1px solid red;
+    background-color: lightgray;
+    color:rgb(43, 50, 56);
 }
 
-.box3{
-    display:inline-block;
-    padding: 10px;
-    position:relative;
-    border: 1px solid red;
-}
-
-.box4 {
-    display:block;
-    padding: 10px;
-    float: right;
-    position:relative;
-    border: 1px solid red;
-}
 .box1 {
     display:inline-block; 
     padding: 10px;
@@ -116,4 +95,20 @@ footer {
 
 }
 
+.box3{
+    display:inline-block;
+    padding: 10px;
+    position:relative;
+    border: 1px solid red;
+    top:25px;
+}
 
+.box4 {
+    display:block;
+    padding: 10px;
+    float: right;
+    position:relative;
+    border: 1px solid red;
+    top:25px;
+    right:10px;
+}
