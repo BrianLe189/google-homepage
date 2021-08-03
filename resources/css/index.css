@@ -7,16 +7,13 @@ body {
 
 }
 
-
 .google-logo {
-    display:block;
-    block-size: 100px;
     width: 50%;
-    left: 25%;
-    border: 1px solid red;
+    margin-left:auto;
+    margin-right:auto;
     text-align: center;
-    position:fixed;
-    top: 12em;
+    position:relative;
+    top: 10em;
 }
 
 .center {
@@ -32,54 +29,76 @@ form {
 }
 .searchbar[type=text]{
     display:block;
-    block-size:35px;
     box-sizing: border-box;
-    border-radius: 20px;
-    height: 40px;
+    padding-left: 40px;
+    border-radius: 24px;
+    height: 45px;
     border: 1px solid red;
     position: relative;
-    width:500px;
-    top: 16em;    
+    width:585px;
+    top: 13.5em;    
 }
 
+.searchbar{
+    display:block;
+    height: 30px;
+    border: 1px solid red;
+    position: relative;
+    width:30px;
+    top:8.8em;
+}
 
+.searchbar:hover{
+    box-shadow:0px 1px 3px 1px rgb(218, 218, 218);
+}
+.magnify{
+    display:block;
+    left:0.5em;
+    border: 1px solid red;
+}
 .btn {
     display:inline-block;
-    font-size: 16px;
+    font-size: 14px;
     cursor:pointer;
+    background-color:#f8f9fa;
     border: 1px solid red;
     position:relative;
-    top: 16em;
-    block-size: 35px;
-    width: 14vw;
+    top: 13em;
+    block-size: 32px;
+    width: 12vw;
     border-radius: 5px;
     white-space: nowrap;
     text-overflow: clip;
-}
+} 
 
+.btn:hover{
+    box-shadow:0px 1px 3px 1px rgb(218, 218, 218);
+}
 
 .nav {
     width:100%;
     height: 60px;
     color:#222;
     font-family:arial, sans-serif;
-    font-size:13px;
+    font-size:14px;
     position:relative;
-    top: 0px;
+    top: 10px;
+    cursor:pointer;
     border: 1px solid red;
 }
 
 footer {
     width:100%;
     bottom:0px;
-    height: 60px;
-    color:#222;
+    height: 80px;
+    color:#5f6368;
     font-family:arial, sans-serif;
-    font-size:13px;
+    font-size:14px;
     position:fixed;
     border: 1px solid red;
-    background-color: lightgray;
-    color:rgb(43, 50, 56);
+    cursor:pointer;
+    background:#f2f2f2;
+    
 }
 
 .box1 {
@@ -87,6 +106,7 @@ footer {
     padding: 10px;
     position:relative;
     border: 1px solid red;
+    left: 10px;
     
 }
 
@@ -97,15 +117,24 @@ footer {
     padding: 10px;
     position: relative;
     border: 1px solid red;
+    right:10px;
 
 }
 
+.sign{
+    background-color: rgb(69,131,236);
+    color:white;
+    font-weight:bold;
+}
 .logo{
-    display:block;
-    float:inline-end;
-    padding: 10px 0;
-    text-align: center;
+    display:flex;
+    float:right;
+    align-items:center;
+    vertical-align: middle;
+    margin: 0px;
     padding: 10px;
+    right:10px;
+    text-align: center;
     position: relative;
     border: 1px solid red;
 }
@@ -115,7 +144,9 @@ footer {
     padding: 10px;
     position:relative;
     border: 1px solid red;
-    top:25px;
+    top:45px;
+    left:13em;
+    
 }
 
 .box4 {
@@ -124,6 +155,7 @@ footer {
     float: right;
     position:relative;
     border: 1px solid red;
-    top:25px;
+    top:45px;
+    right: 13em;
     
 }
