@@ -4,7 +4,6 @@ body {
     appearance: none;
     margin:0px;
     padding:0px;
-
 }
 
 .google-logo {
@@ -19,13 +18,10 @@ body {
 .center {
     display:block;
     text-align: center;
-    
 }
 
 form {
     display:inline-block;
-    
-    
 }
 .searchbar[type=text]{
     display:block;
@@ -33,7 +29,6 @@ form {
     padding-left: 40px;
     border-radius: 24px;
     height: 45px;
-    border: 1px solid red;
     position: relative;
     width:585px;
     top: 13.5em;    
@@ -42,7 +37,6 @@ form {
 .searchbar{
     display:block;
     height: 30px;
-    border: 1px solid red;
     position: relative;
     width:30px;
     top:8.8em;
@@ -52,24 +46,41 @@ form {
     box-shadow:0px 1px 3px 1px rgb(218, 218, 218);
 }
 .magnify{
-    display:block;
-    left:0.5em;
-    border: 1px solid red;
+    display:inline-block;
+    right:15.5em;
+    border-radius: 24px;
+    height: 28px;
+    position: relative;
+    width:30px;
+    top:8.9em;
+}
+
+.mic{
+    display:inline-block;
+    left:15em;
+    border-radius: 24px;
+    height: 28px;
+    position: relative;
+    width:30px;
+    top:8.9em;
 }
 .btn {
     display:inline-block;
     font-size: 14px;
-    cursor:pointer;
     background-color:#f8f9fa;
-    border: 1px solid red;
     position:relative;
     top: 13em;
     block-size: 32px;
-    width: 12vw;
+    width: 13.5vw;
     border-radius: 5px;
     white-space: nowrap;
     text-overflow: clip;
 } 
+
+.underline:hover{
+    text-decoration: underline;
+    cursor:pointer;
+}
 
 .btn:hover{
     box-shadow:0px 1px 3px 1px rgb(218, 218, 218);
@@ -83,20 +94,16 @@ form {
     font-size:14px;
     position:relative;
     top: 10px;
-    cursor:pointer;
-    border: 1px solid red;
 }
 
 footer {
     width:100%;
     bottom:0px;
-    height: 80px;
+    height: 50px;
     color:#5f6368;
     font-family:arial, sans-serif;
     font-size:14px;
     position:fixed;
-    border: 1px solid red;
-    cursor:pointer;
     background:#f2f2f2;
     
 }
@@ -105,18 +112,15 @@ footer {
     display:inline-block; 
     padding: 10px;
     position:relative;
-    border: 1px solid red;
     left: 10px;
     
 }
 
 .box2 {
-    display:inline-block;
+    display:block;
     float:right;
-    vertical-align:middle;
     padding: 10px;
     position: relative;
-    border: 1px solid red;
     right:10px;
 
 }
@@ -136,16 +140,14 @@ footer {
     right:10px;
     text-align: center;
     position: relative;
-    border: 1px solid red;
 }
 
 .box3{
     display:inline-block;
     padding: 10px;
     position:relative;
-    border: 1px solid red;
-    top:45px;
-    left:13em;
+    top:5px;
+    left:2em;
     
 }
 
@@ -154,8 +156,7 @@ footer {
     padding: 10px;
     float: right;
     position:relative;
-    border: 1px solid red;
-    top:45px;
-    right: 13em;
+    top:5px;
+    right: 2em;
     
 }
